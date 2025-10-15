@@ -24,37 +24,11 @@ This project automates data collection from RealPython's tutorial search API. It
 
 ---
 
-## How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/thecodez-realpython-scraper.git
-cd thecodez-realpython-scraper
-```
-
-2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the scraper
-
-```bash
-python scraper.py
-```
-
-You will see an animated **THECODEZ** banner in your terminal, a loading bar, and then the script will fetch data and save it as a CSV file.
-
----
-
 ## Sample Data
 
 * `src/tutorial_sample.md` — contains an example tutorial text extracted by the scraper.
 * `src/sample_image.png` — a sample image related to the extracted tutorial content.
 
-These samples demonstrate the kind of content you can expect from the scraper.
 
 ---
 
@@ -67,7 +41,6 @@ These samples demonstrate the kind of content you can expect from the scraper.
 
 ## Customize
 
-* Change the brand name or tagline in `scraper.py` by modifying the `BRAND_NAME` and `TAGLINE` variables.
 * Adjust the number of pages to scrape by changing the `pages` variable in `main()`.
 
 ---
